@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'btg'
+theme = 'PaperMod'
+
+[params]
+    homeInfoParams = {Title = 'btg', Content = 'you are here'}
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
